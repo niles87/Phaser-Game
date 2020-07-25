@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Phaser-IO", "Phaser-IO\Phaser-IO.njsproj", "{330CB0AA-07F9-436E-94FC-1D56C32238ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{330CB0AA-07F9-436E-94FC-1D56C32238ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330CB0AA-07F9-436E-94FC-1D56C32238ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330CB0AA-07F9-436E-94FC-1D56C32238ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330CB0AA-07F9-436E-94FC-1D56C32238ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {089AEB81-141A-449D-A02F-8D93D857CC07}
+	EndGlobalSection
+EndGlobal

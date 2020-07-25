@@ -1,0 +1,24 @@
+{
+  "name": "phaser-io",
+  "version": "0.0.0",
+  "description": "Phaser-IO",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node server"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^8.0.14",
+    "typescript": "^3.2.2"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
