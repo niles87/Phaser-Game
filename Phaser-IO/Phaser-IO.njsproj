@@ -32,7 +32,9 @@
   <ItemGroup>
     <None Include="dist\server.ts" />
     <Content Include="package.json" />
+    <Content Include="public\game.js" />
     <Content Include="README.md" />
+    <Content Include="views\game.handlebars" />
     <Content Include="views\home.handlebars" />
     <Content Include="views\layouts\main.handlebars" />
     <Content Include="Web.config" />
@@ -41,9 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
+    <Folder Include="dist\routes\" />
     <Folder Include="views\" />
     <Folder Include="public\" />
     <Folder Include="views\layouts\" />
+    <Folder Include="views\partials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="dist\routes\game.ts" />
+    <TypeScriptCompile Include="dist\routes\login.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
