@@ -1,12 +1,17 @@
 import { Response, Request } from 'express';
 
-const express = require('express')
-const app = express()
+const express = require('express');
+const exhbrs = require('express-handlebars');
+const app = express();
 const port = process.env.PORT || 3000;
+
+app.engine('handlebars', exhbrs());
+app.set('view engine', 'handlebars');
+
 
 app.get('/', (req: Request, res: Response) => {
     console.log(req.url);
-    res.send("Hello World!")
+    res.render('home');
 })
 
 app.listen(port, () => {
